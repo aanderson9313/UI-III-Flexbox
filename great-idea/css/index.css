@@ -171,6 +171,9 @@ header {
 	padding: 10px 50px;
 	font-size: 20px;
 	border: 1px solid black;
+	text-align: center;
+	align-items: center;
+
 	
 	
 }
@@ -192,6 +195,7 @@ header {
 
 /* paragraphs */
 .content {
+	display: flex;
 	position: relative;
 }
 
