@@ -137,6 +137,9 @@ html,
 body {
   height: 100%;
   font-family: "Titillium Web", sans-serif;
+  width: 880px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 h1,
@@ -155,11 +158,11 @@ h5 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: auto;
+  height: 100%;
   font-family: "Livvic", sans-serif;
   width:  880px;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
 
 }
 
@@ -169,48 +172,50 @@ h5 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
+  width: 880px;
+  height: 120px;
+  align-content: top;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 10px;
+
 }
 
 header {
   /* set the header to a fixed position */
+  
+  margin-left: 0;
+  margin-right: 0;
+  width: auto;
+  padding-left: 0px;
   display: flex;
   flex-direction: row;
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  background-color: white;
-  width: 46.4%;
-  opacity: 0.9;
+  align-content: stretch;
+  height: auto;
+
 }
 /* navbar */
 .nav {
-  display: flex;
+	display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: stretch;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 880px;
+
 }
+
 
 #navbar {
   display: flex;
+  flex-direction: row;
   flex-wrap: nowrap;
   align-content: space-between;
-  text-align: center;
+  text-align: left;
   height: 40px;
-  padding: 10px 10px px 20px;
+  padding-left: 20px;
   background-color: lightskyblue;
   width: 100%;
-}
-
-.nav-button {
-  font-size: 16px;
-  margin: 15px 16px;
-  padding: 0px 15px 0px 15px;
-  position: relative;
-  border: none;
-  outline: none;
-  color: #fcf8f8;
-  text-decoration: none;
-  font-weight: bold;
 }
 
 .nav-button:hover {
@@ -220,42 +225,53 @@ header {
 .logo {
   display: flex;
   background-color: lightskyblue;
+  width: 220px;
+  padding-left: 22px;
+
 }
 
 /* call to action */
 .cta {
   display: flex;
-  align-content: space-around;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: nowrap; 
+  width: 880px;
+  height: 450px;
   margin-bottom: 1px;
   margin-top: 1px;
   padding-bottom: 15px;
   padding-top: 15px;
+
 }
 
 .cta .cta_text {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  vertical-align: top;
-  margin: 20px 0px 15px 0px;
-  padding-right: 50px;
-  padding-left: 90px;
-  font-size: 50px;
-  text-align: center;
-  width: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	font-weight: 200;
+	font-size: 20px;
+	width: 430px;
+
 }
 
 .cta .cta_text button {
-  font-weight: 200;
-  background-color: white;
-  vertical-align: top;
-  margin-top: 2px;
-  padding: 10px 50px;
-  font-size: 20px;
-  border: 1px solid black;
-  text-align: center;
-  align-items: center;
+	font-weight: 200;
+  	background-color: white;
+  	vertical-align: top;
+  	font-size: 20px;
+	border: 1px solid black;
+	width: auto;
+    height: 42px;
+    vertical-align: center;
+    padding-bottom: 0px;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 0px;
+
 }
 
 .cta .cta_text button:hover {
@@ -269,11 +285,11 @@ header {
   align-content: right;
   justify-content: right;
   margin-top: 55px;
-  margin-left: 20%;
-  padding: 40px 15px 0px 20px;
+  padding-left: 80px;
+
 }
 /* hr style */
-hr {
+.break {
 	width: 880px;
 }
 /* paragraphs */
@@ -293,18 +309,33 @@ hr {
   display:  flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 200px;
+  height: 100px;
+  align-content: top;
 
 }
 
-.content2 .content-bottom {
-  display: flex;
-  flex-wrap: wrap;
-  width: 276px;
-  margin: 1% 8px 2% 8px;
-  padding: 25px 0px;
-  line-height: 20px;
+.block .content-bottom {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ width: 180px;
+ justify-content: space-between;
+ align-content: left;
+ height: auto;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ padding-right: 10px;
+
 }
+
+/* middle img */
+
+.middle-img {
+	display: flex;
+	padding-left: 1px;
+	
+}
+
 /* copyright and contact info */
 footer {
   padding: 25px 0px 0px 0px;
@@ -319,3 +350,5 @@ footer {
 #copyright {
   text-align: center;
 }
+
+
