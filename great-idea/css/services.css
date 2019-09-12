@@ -257,6 +257,10 @@ h1 {
 
 }
 
+hr {
+   border: 1px solid black;
+}
+
 h2 {
     padding-top: 20px;
 }
@@ -268,9 +272,14 @@ h2 {
 
 }
 
+.facts p {
+    margin-right: 30px;
+}
+
 .facts-child {
     flex: 1 1 auto;
     padding-right: 30px;
+    font-size: larger;
 }
 
 .facts .list {
@@ -283,8 +292,13 @@ h2 {
 }
 
 .services-info-img {
-    object-fit: contain;
     align-self: flex-start;
+    height: 300px;
+}
+
+footer {
+    text-align: center;
+    padding-top:
 }
 
 
