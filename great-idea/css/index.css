@@ -182,7 +182,7 @@ h5 {
 
 }
 
-header {
+.header {
   /* set the header to a fixed position */
   
   margin-left: 0;
@@ -352,3 +352,13 @@ footer {
 }
 
 
+/* services css */
+
+.nav-link {
+  align-content: space-between;
+  border: 1px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  background-color: #d3d3d3;
+}
