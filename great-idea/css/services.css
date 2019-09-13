@@ -1,0 +1,305 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+  width: 880px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+
+/* my work after this line */
+#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    line-height: 2;
+}
+
+.header-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    text-align: left;
+    height: 60px;
+    padding-left: 20px;
+    width: 100%;
+    padding-top: 15px;
+
+}
+
+.nav-link {
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    color: darkgrey;
+    padding-right: 40px;
+    text-size-adjust: 16px;
+}
+
+
+.nav-link:hover {
+    opacity: 7;
+    color: black;
+
+}
+
+.logo {
+    height: auto;
+    padding-left: inherit; 
+}
+
+.services-header-img {
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+/* body-content */
+.content {
+    display: flex;
+}
+
+h1 {
+    font-size: 35px;
+}
+.services {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    line-height: 1;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    height: auto;
+    padding-top: 10px;
+    width: 880px;
+
+
+}
+
+.digital  {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    width: 45%;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+
+.digital button {
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+hr {
+   border: 1px solid black;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+.facts {
+    
+    display: flex;
+    width: 100%;
+
+}
+
+.facts p {
+    margin-right: 30px;
+}
+
+.facts-child {
+    flex: 1 1 auto;
+    padding-right: 30px;
+    font-size: larger;
+}
+
+.facts .list {
+    list-style-type: square;
+    padding-top: 20px;
+    height: 70px;
+    margin-left: 30px;
+    line-height: normal;
+
+}
+
+.services-info-img {
+    align-self: flex-start;
+    height: 300px;
+}
+
+footer {
+    text-align: center;
+    padding-top:
+}
+
+
+
